@@ -1,0 +1,952 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0 !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+/* nav part start */
+.navbar-toggler-icon{
+    background: url(../Photos/project-06-10-page/bar.png) no-repeat center / cover;
+}
+.menu-bg{
+    background-color: #1C1E53;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+.menu-bg ul li a{
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px; 
+    padding: 0 20px !important;
+    text-transform: capitalize;
+}
+.menu-button{
+    margin-left: 40px;
+}
+.menu-button a{
+    color: #FFF;
+    font-family:"Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 40px;
+    border-radius: 40px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.menu-button a:hover{
+    background-color: #FCD980;
+}
+/* nav part end */
+
+
+
+
+/* about part start */
+#about{
+    padding: 220px 0 128px 0;
+}
+.about-text h4{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.about-text h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    padding-bottom: 31px;
+}
+.about-text p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+/* about part end */
+
+
+
+
+/* who we are part start */
+#wwa{
+    padding: 80px 0 128px 0;
+}
+.wwa-head h4{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+.wwa-content h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.wwa-content p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 80px;
+    opacity: 0.7;
+}
+/* who we are part end */
+
+
+
+
+/* process part start */
+#process{
+    padding-bottom: 128px;
+}
+.process-head{
+    text-align: center;
+}
+.process-item h4{
+    display: inline-block;
+    color: #2405F2;
+    padding-left: 24px;
+    letter-spacing: 3px;
+    opacity: 0.4;
+}
+.process-head h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 48px;
+}
+.process-item h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+.process-item p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+/* process part end */
+
+
+
+
+/* our mission part start */
+#mission{
+    padding: 128px 0;
+    background-color: #EEF4FA;
+}
+.mission-content h4{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 54px;
+    padding-bottom: 16px;
+}
+.mission-content h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.mission-content p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7;
+}
+/* our mission part end */
+
+
+
+
+/* benefits part start */
+#benefits{
+    padding: 128px 0; 
+}
+.benefits-head{
+    text-align: center;
+    padding-bottom: 48px;
+}
+.benefits-head h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+}
+.benefits-item{
+    padding: 50px 32.61px 48px 48.31px;
+    background-color: #F4F6FC;
+    margin-bottom: 76px;
+}
+.benefits-item h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 26px;
+    padding-bottom: 12px;
+}
+.benefits-item p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.benefits-logo{
+    margin-top: -20px;
+}
+.benefits-logo h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+}
+.benefits-logo p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+/* benefits part end */
+
+
+
+
+/* team part start */
+#team{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+}
+.team-head{
+    text-align: center;
+}
+.team-img{
+    position: relative;
+}
+.team-img::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 170px;
+    border-radius: 50%;
+    opacity: 0;
+    background: linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%);
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.team-img:hover::after{
+    opacity: 1;
+    border: none;
+}
+.overlay{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.8s;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.team-img:hover .overlay{
+    opacity: 1;
+}
+.overlay i{
+    color: #fff;
+    margin: 0 5px;
+}
+.team-head h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 48px;
+    line-height: 64px;
+}
+.team-item{
+    text-align: center;
+    padding: 48px 48px 32px 48px;
+    background-color: #fff;
+}
+.team-item h2{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+    line-height: 36px;
+}
+.team-item h4{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+/* team part end */
+
+
+
+
+/* footer part start */
+footer{
+    background-color: #1C1E53;
+    padding-top: 96px;
+}
+.footer-left p{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 22px;
+    padding-bottom: 86px;
+    opacity: 0.8;
+}
+.footer-left-bottom{
+    display: flex;
+    padding: 18px 100px 16px 37px;
+    background-color: #FCD980;
+}
+.footer-left-bottom1 h3{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 1px;
+}
+.footer-left-bottom1 a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+    padding-right: 29px;
+}
+.footer-right h2{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 14px;
+}
+.footer-right p{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 28px;
+    opacity: 0.8;
+}
+.footer-right a{
+    font-size: 26px;
+    color: #fff;
+    margin-right: 27px;
+}
+#footer-menu{
+    padding: 32px 0;
+    background-color: #fff;
+}
+.fm-left p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.fm-right ul{
+    display: flex;
+}
+.fm-right ul li a{
+    margin-left: 25px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* footer part end */
+
+
+
+
+
+
+
+/* responsive part start */
+
+/* xs part start */
+@media(max-width:575px){
+    .offcanvas-header {
+        color: #fff;
+        background-color: gray;
+        padding-left: 35px;
+    }
+    .offcanvas-body{
+        background-color: #1C1E53;
+    }
+    .nav-link{
+        margin-bottom: 20px;
+    }
+    .nav-link:hover{
+        color: #fff;
+    }
+    .menu-button {
+        margin-left: 23px;
+    }
+    .menu-button a {
+        padding: 0;
+        border: none;
+    }
+    .menu-button a:hover{
+        background-color: transparent;
+    }
+    #about {
+        padding: 127px 0 35px 0;
+    }
+    .about-text h2 {
+        font-size: 20px;
+        line-height: 37px;
+        padding-bottom: 10px;
+    }
+    .about-text p {
+        padding-bottom: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #wwa {
+        padding: 0px 0 35px 0;
+    }
+    .wwa-content h2{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .wwa-content p {
+        padding-bottom: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #process {
+        padding-bottom: 15px;
+    }
+    .process-item {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .process-item img{
+        display: none;
+    }
+    .process-head h2 {
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+    .process-item h4 {
+        padding-left: 14px;
+        letter-spacing: 2px;
+    }
+    .process-item h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    .process-item p{
+        text-align: start;
+    }
+    #mission {
+        padding: 0;
+    }
+    .mission-content h4 {
+        font-size: 19px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+    .mission-content h2 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .mission-content p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 15px;
+    }
+    #benefits {
+        padding: 35px 0;
+    }
+    .benefits-head {
+        padding-bottom: 15px;
+    }
+    .benefits-head h2 {
+        font-size: 24px;
+    }
+    .benefits-item {
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .benefits-item p{
+        text-align: start;
+    }
+    .benefits-logo {
+        margin-top: 0px;
+    }
+    .benefits-logo h2 {
+        font-size: 24px;
+    }
+    .benefits-logo p {
+        font-size: 10px;
+    }
+    #team {
+        padding: 35px 0;
+    }
+    .team-head h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+        line-height: 0px;
+    }
+    .team-item {
+        margin: 0 20px 20px 20px;
+        padding: 10px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .team-item h2{
+        padding-top: 5px;
+    }
+    .team-img::after {
+        opacity: 1;
+    }
+    .overlay{
+        opacity: 1;
+    }
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-left p {
+        line-height: 17px;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-left-bottom {
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    .footer-left-bottom1 h3{
+        font-size: 12px;
+    }
+    .footer-left-bottom1 a{
+        font-size: 12px;
+    }
+    .fm-left p{
+        text-align: center;
+    }
+    .footer-right h2{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .footer-right p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .fr-icon{
+        text-align: center;
+    }
+    .fm-right ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+    .fm-right ul li a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+}
+/* xs part end */
+
+
+
+
+
+/* sm part start */
+@media(min-width:576px) and (max-width:767px){
+    .offcanvas-header {
+        color: #fff;
+        background-color: gray;
+        padding-left: 35px;
+    }
+    .offcanvas-body{
+        background-color: #1C1E53;
+    }
+    .nav-link{
+        margin-bottom: 20px;
+    }
+    .nav-link:hover{
+        color: #fff;
+    }
+    .menu-button {
+        margin-left: 23px;
+    }
+    .menu-button a {
+        padding: 0;
+        border: none;
+    }
+    .menu-button a:hover{
+        background-color: transparent;
+    }
+    #about {
+        padding: 127px 0 35px 0;
+    }
+    .about-text h2 {
+        font-size: 34px;
+        line-height: 37px;
+        padding-bottom: 10px;
+    }
+    .about-text p {
+        font-size: 13px;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+    #wwa {
+        padding: 29px 0 35px 0;
+    }
+    .wwa-content p {
+        padding-bottom: 35px;
+    }
+    #process {
+        padding-bottom: 15px;
+    }
+    .process-item {
+        margin-bottom: 30px;
+    }
+    .process-head h2 {
+        font-size: 35px;
+        padding-bottom: 28px;
+    }
+    .process-item h4 {
+        padding-left: 14px;
+        letter-spacing: 2px;
+    }
+    .process-item h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    #mission {
+        padding: 0 0;
+    }
+    .mission-content h4 {
+        font-size: 19px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+    .mission-content h2 {
+        font-size: 34px;
+        padding-bottom: 13px;
+    }
+    .mission-content p {
+        font-size: 12px;
+        line-height: 19px;
+        padding-bottom: 15px;
+    }
+    #benefits {
+        padding: 35px 0;
+    }
+    .benefits-head {
+        padding-bottom: 15px;
+    }
+    .benefits-head h2 {
+        font-size: 37px;
+    }
+    .benefits-item {
+        padding: 30px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .benefits-logo {
+        margin-top: 0px;
+    }
+    .benefits-logo h2 {
+        font-size: 27px;
+    }
+    .benefits-logo p {
+        font-size: 12px;
+    }
+    #team {
+        padding: 35px 0;
+    }
+    .team-head h2 {
+        font-size: 36px;
+        padding-bottom: 36px;
+        line-height: 0px;
+    }
+    .team-item {
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .team-img::after {
+        opacity: 1;
+    }
+    .overlay{
+        opacity: 1;
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-left p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-left-bottom {
+        margin-bottom: 51px;
+        padding: 20px;
+    }
+    .fm-left p{
+        text-align: center;
+    }
+    .fm-right ul {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+    .fr-icon{
+        text-align: center;
+    }
+    .fm-right ul li a {
+        margin: 0px 20px 0 0;
+        font-size: 14px;
+    }
+}
+/* sm part end */
+
+
+
+
+/* md part start */
+@media(min-width:768px) and (max-width:991px){
+    .offcanvas-header {
+        color: #fff;
+        background-color: gray;
+        padding-left: 35px !important;
+    }
+    .offcanvas-body{
+        background-color: #1C1E53;
+    }
+    .nav-link{
+        margin-bottom: 20px;
+    }
+    .nav-link:hover{
+        color: #fff;
+    }
+    .menu-button {
+        margin-left: 23px;
+    }
+    .menu-button a {
+        padding: 0;
+        border: none;
+    }
+    .menu-button a:hover{
+        background-color: transparent;
+    }
+    #about {
+        padding: 127px 0 35px 0;
+    }
+    .about-text h2 {
+        font-size: 44px;
+        line-height: 37px;
+        padding-bottom: 30px;
+    }
+    .about-text p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    #wwa {
+        padding: 29px 0 35px 0;
+    }
+    .wwa-content h2{
+        font-size: 44px;
+    }
+    .wwa-content p {
+        font-size: 20px;
+        padding-bottom: 35px;
+    }
+    #process {
+        padding-bottom: 50px;
+    }
+    .process-item {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .process-head h2 {
+        font-size: 45px;
+        padding-bottom: 28px;
+    }
+    .process-item h4 {
+        padding-left: 14px;
+        letter-spacing: 5px;
+    }
+    .process-item h2 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 18px;
+    }
+    .process-item p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #mission {
+        padding: 30px 0;
+    }
+    .mission-content h4 {
+        font-size: 24px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .mission-content h2 {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .mission-content p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+    #benefits {
+        padding: 55px 0;
+    }
+    .benefits-head {
+        padding-bottom: 25px;
+    }
+    .benefits-head h2 {
+        font-size: 40px;
+    }
+    .benefits-item {
+        padding: 60px 40px;
+        margin: 30px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .benefits-logo {
+        margin: 0;
+    }
+    .benefits-logo h2 {
+        font-size: 37px;
+    }
+    .benefits-logo p {
+        font-size: 22px;
+    }
+    #team {
+        padding: 75px 0;
+    }
+    .team-head h2 {
+        font-size: 36px;
+        padding-bottom: 50px;
+        line-height: 0px;
+    }
+    .team-item {
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .team-img::after {
+        opacity: 1;
+    }
+    .overlay{
+        opacity: 1;
+    }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-left p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-left-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 51px;
+        padding: 20px;
+    }
+    .fm-left p{
+        text-align: center;
+        opacity: 0.7;
+    }
+    .fm-right ul {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+    .fr-icon{
+        text-align: center;
+    }
+    .fm-right ul li a {
+        margin: 0 15px;
+        font-size: 18px;
+    }
+}
+/* md part end */
+/* responsive part end */

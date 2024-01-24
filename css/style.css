@@ -1,0 +1,602 @@
+/* 1st row start */
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 40px;
+    width: 100%;
+    background-color: crimson;
+}
+/* 1st col start */
+.main_one{
+    float: left;
+    height: 100%;
+    width: 20%;
+    line-height: 10px;
+}
+.main_one_one{
+    float: left;
+    line-height: 47px;
+    width: 30%;
+    text-align: right;
+}
+
+.main_one_two{
+    float: left;
+    line-height: 38px;
+    color: white;
+    font-size: 18px;
+}
+/* 1st col end */
+
+/* 2nd col start */
+.main_two{
+    height: 100%;
+    width: 45%;
+    float: left;
+   line-height: 08px;
+}
+.main_two_one{
+    line-height: 45px;
+    float: left;
+}
+.main_two_two{
+    float: left;
+    line-height: 38px;
+    color: white;
+    font-size: 20px;
+}
+/* 2nd col end */
+
+/* 3rd col start */
+.main_three{
+height: 100%;
+width: 15%;
+float: right;
+
+}
+.main_three a{
+    text-decoration: none;
+    display: block;
+}
+.main_three_one{
+    float: left;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 1px;
+   }
+   .main_three_one_one{
+    color: tomato;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 12px;
+   }
+   .main_three_one_two{
+    color: tomato;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 12px;
+   }
+   .main_three_two{
+    float: left;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+
+   }
+   /* 3rd col end */
+
+   /* 1st row end */
+
+   /* 2nd row start */
+    #bar{
+        height: 710px;
+        width: 100%;
+        background-color: bisque;
+        margin: 0 auto;
+    }
+    #bar_one{
+        height: 100px;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    #bar_one a{
+        text-decoration: none;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    #bar_one_one{
+        height: 100%;
+        width: 25%;
+        float: left;
+        line-height: 105px;
+        text-align: left;
+
+    }
+    #bar_one_two{
+        height: 100%;
+        width: 9%;
+        float: left;
+        line-height: 55px;
+        text-align: left;
+    }
+    #bar_one_two_one{
+        color: black;
+        font-size: large;
+    }
+    #bar_one_three{
+        height: 100%;
+        width: 9%;
+        float: left;
+        line-height: 55px;
+        text-align: left;
+    }
+    #bar_one_three-one{
+        color: black;
+        font-size: large;
+    }
+  #bar_one_four{
+    height: 100%;
+        width: 14%;
+        float: left;
+        line-height: 55px;
+        text-align: left;
+  }
+  #bar_one_four-one{
+    color: black;
+    font-size: large;
+  }
+  #bar_one_five{
+    height: 100%;
+        width: 13%;
+        float: left;
+        line-height: 55px;
+        text-align: left;
+  }
+  #bar_one_five-one{
+    color: black;
+    font-size: large;
+  }
+  #bar_one_seven{
+    height: 100%;
+    width: 9%;
+    float: left;
+    line-height: 55px;
+    text-align: left;
+  }
+  #bar_one_seven-one{
+    color: black;
+    font-size: large;
+  }
+  #bar_one_six{
+    height: 60%;
+        width: 20%;
+        float: right;
+        text-align: center;
+        line-height: 60px;
+        background-color: crimson;
+        border-radius: 10px;
+    }
+    #bar_one_six img{
+        padding: 0 07px;
+    }
+  #bar_one_six_two{
+    color: white;
+    text-transform: capitalize;
+    font-size: x-large;
+  }
+   /* 2nd row end
+   /* 3rd row start */
+#sahed{
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+   }
+   .sahed_one{
+    height: 80%;
+    width: 35%;
+    float: left;
+   }
+   .sahed_one_one{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+   }
+.sahed_one_one_one{
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+   .sahed_one_two{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .sahed_two{
+    height: 100%;
+    width: 58%;
+    float: right;
+   }
+   .sahed_two img{
+    height: 93%;
+    width: 658px;
+    border-radius: 25px;
+   }
+
+   /* 2nd row end */
+   .abc{
+    height: 60px;
+    width: 450px;
+   }
+   .abc a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-family: sans-serif;
+   }
+   .abc_1{
+    height: 80%;
+    width: 47%;
+    background-color: crimson;
+    float: left;
+    text-align: center;
+    line-height: 49px;
+    margin: 0 0px 0 0;
+    border-radius: 10px;
+   }
+   .abc_1_1{
+    color: white;
+    font-size: 25px;
+   }
+   .abc_2{
+    height:80%;
+    width: 47%;
+    background-color: crimson;
+    float: right;
+    text-align: center;
+    line-height: 49px;
+    margin: 0 0 0 0px;
+    border-radius: 10px;
+   }
+   .abc_2_1{
+    color: white;
+    font-size: 25px;
+    }
+    .abc_3{
+        height: 100px;
+        width: 90%;
+        float: left;
+        line-height: 1000px;
+    }
+    .abc_3_1{
+        line-height: 179px;
+        float: left;
+        height: 100%;
+        width: 15%;
+    }
+    .abc_3_2{
+        float: left;
+        height: 100%;
+        width: 65%;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        line-height: 35px;
+    }
+    #course{
+        height: 170px;
+        width: 100%;
+        background-color: bisque;
+    }
+    .course_line{
+        height: 100%;
+        width:100%;
+        margin: 0 auto;
+    }
+    .course_line a{
+        text-decoration: none;
+        color: black;
+    }
+    .wb{
+        height: 90%;
+        width: 14%;
+        float: left;
+        background-color: white;
+        margin: 0 20px 0 110px;
+        border-radius: 10px;
+    }
+    .c1{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        line-height: 110px;
+    }
+    .wb_2{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+    }
+    .dm{
+        height: 90%;
+        width: 14%;
+        float: left;
+        background-color: white;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    .dm_2{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+    }
+    .three_d{
+        height: 90%;
+        width: 14%;
+        float: left;
+        background-color: white;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    .three_d_2{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+    }
+    .cy{
+        height: 90%;
+        width: 14%;
+        float: left;
+        background-color: white;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    .cy_2{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+    }
+    .gd{
+        height: 90%;
+        width: 14%;
+        float: left;
+        background-color: white;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    .gd_2{
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+    }
+    .gap{
+        height: 60px;
+        width: 100%;
+        background-color: bisque;
+    }
+    .gap_2{
+        height: 100px;
+        width: 100%;
+    }
+    #pc{
+        height: 800px;
+        width: 90%;
+        background-color: azure;
+        margin: 0 auto;
+        border-radius: 40px;
+    }
+    .pc_1{
+        height: 200px;
+        width: 80%;
+        margin: 0 auto;
+        font-size: larger;
+    }
+    .pc_1_1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .pc_1_2{
+        font-size: 21px;
+        text-align: center;
+    }
+    .pc_name{
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .pc_name ul{
+        list-style: none;
+    }
+    .pc_name ul li{
+        display: inline-block;
+    }
+    .pc_name a{
+        text-decoration: none;
+        color: black;
+        margin: 13px;
+    }
+    .wd{
+        height: 450px;
+        width: 28%;
+        background-color: white;
+        margin: 0 30px;
+        float: left;
+        border-radius: 20px;
+        border-radius: 20px; 
+        border: 2px solid black;
+    }
+    .wd a{
+        text-decoration: none;
+    }
+    .wd_1{
+        height: 45%;
+        width: 100%;
+        background-image: url(../Photos/webdevelopment.jpg);
+        background-position: center;
+        background-size: cover;
+        border-top-right-radius: 18px;
+        border-top-left-radius: 18px;
+        margin-bottom: 20px;
+    }
+    .wd_2 h4{
+        color: tomato;
+        margin-bottom: 7px;
+        padding-left: 15px;
+        font-family: sans-serif;
+    }
+    .wd_2 h5{
+        color: black;
+        margin-bottom: 40px;
+        padding-left: 15px;
+        font-family: sans-serif;
+    }
+    .wd_2 h3{
+        color: black;
+        margin-bottom: 7px;
+        padding-left: 15px;
+        font-family: sans-serif;
+        font-size: larger;
+    }
+    .wd_2 span{
+        color: black;
+        padding-left: 15px;
+        padding-top: 20px;
+        font-family: sans-serif;
+        font-size: large;
+        float: left;
+    }
+    .mern{
+        height: 450px;
+        width: 28%;
+        margin: 0 30px;
+        float: left;
+        background-color: white;
+        border-radius: 20px;
+        border-radius: 20px; 
+        border: 2px solid black;
+    }
+    .mern a{
+        text-decoration: none;
+    }
+    .mern_1{
+        height: 45%;
+        width: 100%;
+        background-image: url(../Photos/mern.jpg);
+        background-position: center;
+        background-size: cover;
+        border-top-right-radius: 18px;
+        border-top-left-radius: 18px;
+        margin: 0 0 20px 0;
+    }
+    .mern_2 h4{
+        color: tomato;
+        margin-bottom: 7px;
+        padding-left: 15px;
+        font-family: sans-serif;
+    }
+    .mern_2 h5{
+        color: black;
+        margin-bottom: 40px;
+        padding-left: 15px;
+        font-family: sans-serif;
+    }
+    .mern_2 h3{
+        color: black;
+        margin-bottom: 7px;
+        padding-left: 15px;
+        font-family: sans-serif;
+        font-size: larger;
+    }
+    .mern_2 span{
+        color: black;
+        padding-left: 15px;
+        padding-top: 20px;
+        font-family: sans-serif;
+        font-size: large;
+        float: left;
+    }
+    .ad{
+        height: 450px;
+        width: 28%;
+        background-color: white;
+        margin: 0 20px;
+        float: left;
+        border-radius: 20px; 
+        border: 2px solid black;
+        
+    }
+    .ad a{
+        text-decoration: none;
+    }
+    .ad_1{
+        height: 45%;
+        width: 100%;
+        background-image: url(../Photos/app.jpg);
+        background-position: center;
+        background-size: cover;
+        border-top-right-radius: 18px;
+        border-top-left-radius: 18px;
+        margin-bottom: 20px;
+    }
+    .ad_2 h4{
+        color: tomato;
+        margin-bottom: 7px;
+        padding-left: 15px;
+        font-family: sans-serif;
+    }
+    .ad_2 h5{
+        color: black;
+        margin-bottom: 40px;
+        padding-left: 15px;
+        font-family: sans-serif;
+    }
+    .ad_2 h3{
+        color: black;
+        margin-bottom: 7px;
+        padding-left: 15px;
+        font-family: sans-serif;
+        font-size: larger;
+    }
+    .ad_2 span{
+        color: black;
+        padding-left: 15px;
+        padding-top: 20px;
+        font-family: sans-serif;
+        font-size: large;
+        float: left;
+    }
+    .discount{
+        height: 60px;
+        width: 140px;
+        border: 2px solid black;
+        float: right;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .discount a{
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        display: block;
+        line-height: 60px;
+    }
+    .discount a:hover{
+        background-color: tomato;
+        border-radius: 18px;
+        transition: 0.8s;
+    }
