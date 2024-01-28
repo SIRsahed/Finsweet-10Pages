@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* nav part start */
 .navbar-toggler-icon{
-    background: url(../Photos/project-06-10-page/bar.png) no-repeat center / cover;
+    background: url(../Photos/project-06-10-page/bar.png) no-repeat center / cover !important;
 }
 .menu-bg{
     background-color: #1C1E53;
@@ -778,4 +778,54 @@ footer{
     }
 }
 /* md part end */
+
+
+
+
+/* lg part start */
+@media(min-width:992px) and (max-width:1200px){
+    .cs-item h3 {
+        font-size: 23px;
+    }
+    .cs-menu li a {
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .contact-text {
+        padding: 0 45px;
+    }
+    .footer-left-bottom {
+        padding: 18px 0 16px 18px;
+    }
+    .footer-left-bottom1 a {
+        padding-right: 22px;
+    }
+    .fm-right ul li a {
+        margin: 0 9px;
+    }
+    .fm-left p {
+        font-size: 14px;
+    }
+}
+/* lg part end */
+
+
+
+
+/* xl part start */
+@media(min-width:1201px) and (max-width:1399px){
+    .box h3 {
+        font-size: 19px;
+    }
+    .contact-text {
+        padding: 50px 30px 0 50px;
+    }
+    .contact-item {
+        padding: 96px 96px 0 96px;
+    }
+    .footer-left-bottom {
+        padding: 18px 40px 16px 37px;
+    }
+}
+/* xl part end */
 /* responsive part end */
